@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Day_4_Scene/Day04_homework_scene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
