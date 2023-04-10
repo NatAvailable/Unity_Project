@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Create/School/Unity_Project/Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49873
+Successfully changed project path to: D:/Create/School/Unity_Project/Test
+D:/Create/School/Unity_Project/Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Create/School/Unity_Project/Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002071 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (473ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (350ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 2.629000 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.353500 ms  DeleteObjects: 0.070400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Personal_Model_Asset/Texture/Wood_Horse/Wood_Horse_mtl.mat
+  artifactKey: Guid(4c6f03fc757976045992f5d09dccd5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Wood_Horse/Wood_Horse_mtl.mat using Guid(4c6f03fc757976045992f5d09dccd5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289d2487509f2ab20ba23d68ea632993') in 0.165321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.574511 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear
+  artifactKey: Guid(de839a097ee1cbe458c66c0fc432be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear using Guid(de839a097ee1cbe458c66c0fc432be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a7c05f716dd10d157d88bab8514a91') in 0.006487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155288 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_BaseMap.1001.png
+  artifactKey: Guid(964fc666514f6b143a7d5ae72d2f21c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_BaseMap.1001.png using Guid(964fc666514f6b143a7d5ae72d2f21c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62116cf98f4e3a5fcca342196f7b6382') in 0.037182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_MaskMap.1001.png
+  artifactKey: Guid(a9f05841a458d514e9e408530150dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_MaskMap.1001.png using Guid(a9f05841a458d514e9e408530150dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fcdba2c64eb1f670dbdee31416d025') in 0.012273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Emissive.1001.png
+  artifactKey: Guid(ce1714f767bdeb240a72a8aa93e42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Emissive.1001.png using Guid(ce1714f767bdeb240a72a8aa93e42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b2950aa0995cdd2a7d31e680911ae') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Normal.1001.png
+  artifactKey: Guid(1f9d95164982bef449515fc81a0b1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Normal.1001.png using Guid(1f9d95164982bef449515fc81a0b1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b6fbc72baf05e92bfcebe7b955e659') in 0.013119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.372486 seconds.
+  path: Assets/Personal_Model_Asset/Mesh/Chimpanzee_low.fbx
+  artifactKey: Guid(db5ad833dc7e4d94fa9cedea829751fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Mesh/Chimpanzee_low.fbx using Guid(db5ad833dc7e4d94fa9cedea829751fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d3215f35082d48091b7da19c6d4473') in 0.158315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Personal_Model_Asset/Mesh/Teddy_Bear.fbx
+  artifactKey: Guid(954fcba5614555d47be43ed55f2da6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Mesh/Teddy_Bear.fbx using Guid(954fcba5614555d47be43ed55f2da6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f34871704cb0ea7d181af76fa06539') in 0.033629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.904181 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee
+  artifactKey: Guid(ebfa0a1047b6234498764b4664d9342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee using Guid(ebfa0a1047b6234498764b4664d9342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bad38c65db849f9739aa2a40451d0c8') in 0.006108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.305055 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_mtl.mat
+  artifactKey: Guid(872b4a8cd6690df45a14016f20e07c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_mtl.mat using Guid(872b4a8cd6690df45a14016f20e07c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed6899c28cbc4815f9af21e319a673') in 0.011035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.032907 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_BaseMap_Utility - sRGB - Texture.1001.png
+  artifactKey: Guid(c1bddd93c3de4614ab4dcf2ac15cb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_BaseMap_Utility - sRGB - Texture.1001.png using Guid(c1bddd93c3de4614ab4dcf2ac15cb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ecff9d718552523f887a9039fc4002') in 0.013212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.png
+  artifactKey: Guid(eddf6ec6245b5cf4a8a4f03e288605ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.png using Guid(eddf6ec6245b5cf4a8a4f03e288605ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60120cfb2314681f022f3c802a8f335f') in 0.011966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_MaskMap_Utility - Raw.1001.png
+  artifactKey: Guid(c5a77306f86b69141aef352fff6d7836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_MaskMap_Utility - Raw.1001.png using Guid(c5a77306f86b69141aef352fff6d7836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac28b21f23758d4b116b3c2c9e2b85e') in 0.014508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Emissive_Utility - sRGB - Texture.1001.png
+  artifactKey: Guid(a746ef65f2404ad42b6bce113bc388bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Emissive_Utility - sRGB - Texture.1001.png using Guid(a746ef65f2404ad42b6bce113bc388bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed43d482f47495e8bf1c639e0d0971a') in 0.012241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Normal_Utility - Raw.1001.png
+  artifactKey: Guid(212c7f08244c7fa4ebcc111f75fc18c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Normal_Utility - Raw.1001.png using Guid(212c7f08244c7fa4ebcc111f75fc18c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d73406e1874888ee288c1d827ce7601') in 0.024785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.561821 seconds.
+  path: Assets/Personal_Model_Asset/Mesh/Chimpanzee.fbx
+  artifactKey: Guid(318fc04b8958c4c4e9bb44bc3dd816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Mesh/Chimpanzee.fbx using Guid(318fc04b8958c4c4e9bb44bc3dd816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e1d8ec049c9495ddf220678b8571a') in 0.018312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.462406 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.tif
+  artifactKey: Guid(bfc4236643e671048896d048cac2e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.tif using Guid(bfc4236643e671048896d048cac2e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24b50f7522f46ccdac7922d50f880f2') in 0.010543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.781782 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.tif
+  artifactKey: Guid(bfc4236643e671048896d048cac2e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Specular_Utility - sRGB - Texture.1001.tif using Guid(bfc4236643e671048896d048cac2e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3ff0ad266fcfd0f4b15f64e86f000d') in 0.009569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 229.055465 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Height_Utility - Raw.1001.png
+  artifactKey: Guid(98dce93cf17e8604a894f04744233073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Chimpanzee/Chimpanzee_low_lambert1_Height_Utility - Raw.1001.png using Guid(98dce93cf17e8604a894f04744233073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f118f3131a415f41389de1f96bfc507') in 0.018163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.732177 seconds.
+  path: Assets/Personal_Model_Asset/Prefeb/Chimpanzee.prefab
+  artifactKey: Guid(bcc369c11daeb2a4899bb5fad2c1908c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Prefeb/Chimpanzee.prefab using Guid(bcc369c11daeb2a4899bb5fad2c1908c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7d08dd9701f262cdef7b0e029031a8') in 0.011428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.751117 seconds.
+  path: Assets/Personal_Model_Asset/Mesh/Chimpanzee.fbx
+  artifactKey: Guid(318fc04b8958c4c4e9bb44bc3dd816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Mesh/Chimpanzee.fbx using Guid(318fc04b8958c4c4e9bb44bc3dd816c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d290391d2c5ad0626f406395b5eef2d') in 0.018776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.032738 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Roughness.1001.png
+  artifactKey: Guid(5d7e35d131c47c2448774be94becd944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Roughness.1001.png using Guid(5d7e35d131c47c2448774be94becd944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5625c373a3e56d1c412acc42b9840461') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.556681 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Specular.1001.png
+  artifactKey: Guid(5706154225d331e45b40de4e45db311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Specular.1001.png using Guid(5706154225d331e45b40de4e45db311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923acf2ee68f26cbb0a316e54d77417f') in 0.006864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.033572 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Specular.1001.tif
+  artifactKey: Guid(cb7afa3fa2606a94a92e5b6db38521e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_Specular.1001.tif using Guid(cb7afa3fa2606a94a92e5b6db38521e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf867e2f28e948c26e55f003c12c044') in 0.002104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.881629 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy__lambert1_Roughness.1001.tif
+  artifactKey: Guid(63c79a4f11d774d4b86afa28a2f463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy__lambert1_Roughness.1001.tif using Guid(63c79a4f11d774d4b86afa28a2f463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd4b66bfb002c20002e4af6452d7274') in 0.013266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.936168 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_mtl.mat
+  artifactKey: Guid(d8645cb1eb9bcf64b90c050c3eceb7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy_Bear_mtl.mat using Guid(d8645cb1eb9bcf64b90c050c3eceb7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91983aeb369881ac34df10069e61f69') in 0.010884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.909825 seconds.
+  path: Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy__lambert1_Height.1001.png
+  artifactKey: Guid(bfb7c613533f49546b2284078eb6f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Texture/Teddy_Bear/Teddy__lambert1_Height.1001.png using Guid(bfb7c613533f49546b2284078eb6f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e0360c22e2c86d464cc6c9158bd2c') in 0.010203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.843618 seconds.
+  path: Assets/Personal_Model_Asset/Prefeb/Teddy_Bear.prefab
+  artifactKey: Guid(db875b712aee42944ac2146393f78e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal_Model_Asset/Prefeb/Teddy_Bear.prefab using Guid(db875b712aee42944ac2146393f78e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55deac608c69e2c77e54f57329e86d9b') in 0.009632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.860774 seconds.
+  path: Assets/Scenes/Day_4_Scene/Day04_homework_scene.unity
+  artifactKey: Guid(775735ae1816ae24080629f8c8b260d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Day_4_Scene/Day04_homework_scene.unity using Guid(775735ae1816ae24080629f8c8b260d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5611fc4ec105194bf8df482450b7c941') in 0.005409 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
